@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this model or these scripts, please cite the article below."
+title: "scirep2025-hydrops-nuclei-model: Reissner's and saccular membrane nucleus segmentation model (Dragonfly U-Net)"
+version: 1.0.0
+type: software
+license: CC-BY-NC-4.0
+abstract: >-
+  Trained 2D U-Net for Dragonfly 2024.1 that segments cell nuclei in Reissner's and
+  saccular membrane of H&E-stained human temporal bone sections, with post-processing
+  and validation scripts. Model used in Bryton, Correa et al., Scientific Reports 15,
+  40801 (2025).
+keywords:
+  - Meniere's disease
+  - endolymphatic hydrops
+  - Reissner's membrane
+  - saccule
+  - nucleus segmentation
+  - U-Net
+  - Dragonfly
+authors: &authors
+  - family-names: Bryton
+    given-names: Corey
+  - family-names: Correa
+    given-names: Diana M.
+  - family-names: Bächinger
+    given-names: David
+  - family-names: Fankhauser
+    given-names: Valentin
+  - family-names: Kamber
+    given-names: Nicole C.
+  - family-names: Zhu
+    given-names: Meng Yu
+  - family-names: O'Malley
+    given-names: Jennifer T.
+  - family-names: Hickman
+    given-names: Tyler T.
+  - family-names: Robles-Bolivar
+    given-names: Paula
+  - family-names: Rauch
+    given-names: Steven D.
+  - family-names: Eckhard
+    given-names: Andreas H.
+    email: andreas_eckhard@meei.harvard.edu
+    affiliation: "Mass Eye and Ear, Harvard Medical School"
+preferred-citation:
+  type: article
+  title: "Hyperplastic growth, not hydrostatic distension, in endolymphatic hydrops in humans challenges the classic view of Meniere's disease"
+  journal: "Scientific Reports"
+  volume: 15
+  start: 40801
+  year: 2025
+  doi: 10.1038/s41598-025-24549-9
+  pmcid: PMC12630622
+  url: "https://pubmed.ncbi.nlm.nih.gov/41257965/"
+  authors: *authors

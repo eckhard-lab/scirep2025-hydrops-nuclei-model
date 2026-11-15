@@ -1,0 +1,111 @@
+{
+    "DLL version" : "2024.1.0.1579",
+    "data_augmentation_parameters" : {
+        "AUGMENTATION_FACTOR" : 5,
+        "BRIGHTNESS_RANGE" : [
+            0.6,
+            1.4000000000000004
+        ],
+        "ELASTIC_SIGMA" : [
+            0.08,
+            0.16
+        ],
+        "FLIP_H" : true,
+        "FLIP_V" : true,
+        "GAUSSIAN_VAR" : [
+            0.0,
+            0.005
+        ],
+        "JITTER" : [
+            0.0,
+            60.0
+        ],
+        "ROTATION" : 180.0,
+        "SHEAR" : 45,
+        "USE_BRIGHTNESS" : true,
+        "USE_DATA_AUGMENTATION" : true,
+        "USE_ELASTIC" : false,
+        "USE_GAUSSIAN_NOISE" : false,
+        "USE_JITTER" : false,
+        "USE_ROTATION" : true,
+        "USE_SHEAR" : true,
+        "USE_ZOOM" : true,
+        "ZOOM" : [
+            0.9,
+            1.1
+        ]
+    },
+    "hostname" : "",
+    "label_information" : "{\"columns\":[\"Data set 1\"],\"index\":[\"Total voxels\",\"Voxels used\",\"Class 1\",\"Class 2\"],\"data\":[[\"1,083,692,148\"],[\"116,070,783 (10.71%)\"],[\"115,924,756 (99.87%)\"],[\"146,027 (0.13%)\"]]}",
+    "learning_rate" : 0.001,
+    "model_description" : "Architecture: U-Net\nParameters:\n - Depth level: 5\n - Initial filter count: 64\nInput dimension: 2D\n",
+    "multi_slice_settings" : [
+        {
+            "CHANNEL_COUNT" : 1,
+            "INC_SLICE_IDX" : 1,
+            "REF_IDX" : 0
+        }
+    ],
+    "train_patch_count" : 194490,
+    "training_parameters" : {
+        "batch_size" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Batch size",
+            "tooltip" : "The number of patches used for a single model parameters update by the training algorithm.",
+            "units" : null,
+            "value" : 32,
+            "value_tooltip" : ""
+        },
+        "epochs_count" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Epochs number",
+            "tooltip" : "The number of training epochs, i.e. iterations over training data.",
+            "units" : null,
+            "value" : 10000,
+            "value_tooltip" : ""
+        },
+        "input_size" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Patch size",
+            "tooltip" : "The size of the data patches extracted from the training data and used as an input for the training algorithm.",
+            "units" : null,
+            "value" : [
+                64,
+                64,
+                1
+            ],
+            "value_tooltip" : ""
+        },
+        "input_stride" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Stride ratio",
+            "tooltip" : "The ratio between the stride (step) taken between any two consecutive patches to the patch size.",
+            "units" : null,
+            "value" : 1.0,
+            "value_tooltip" : ""
+        },
+        "loss_function" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Loss function",
+            "tooltip" : "The function for calculating the difference between the outcome predicted by a model and the desired solution (target).",
+            "units" : null,
+            "value" : "CategoricalCrossentropy",
+            "value_tooltip" : ""
+        },
+        "optimizer" : {
+            "constraints" : "None",
+            "editable" : true,
+            "label" : "Optimization algorithm",
+            "tooltip" : "The algorithm used to search for the optimal set of model parameters that minimizes the loss function.",
+            "units" : null,
+            "value" : "Adam",
+            "value_tooltip" : ""
+        }
+    },
+    "val_patch_count" : 32350
+}

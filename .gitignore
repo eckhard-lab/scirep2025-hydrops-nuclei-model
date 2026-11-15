@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+results/
+*_ordered.csv
+*_ordered.png
+summary.csv
+*.ORSSession
