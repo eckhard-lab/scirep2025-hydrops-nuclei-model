@@ -1,7 +1,7 @@
 # Reissner's & saccular membrane nucleus segmentation (Dragonfly U-Net)
 
 [![Paper](https://img.shields.io/badge/Sci%20Rep-10.1038%2Fs41598--025--24549--9-1f77b4)](https://doi.org/10.1038/s41598-025-24549-9)
-[![Licence: CC BY-NC 4.0](https://img.shields.io/badge/model-CC%20BY--NC%204.0-lightgrey)](LICENSE-MODEL)
+[![Licence: CC BY-NC 4.0](https://img.shields.io/badge/model-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 [![PubMed](https://img.shields.io/badge/PMID-41257965-326599)](https://pubmed.ncbi.nlm.nih.gov/41257965/)
 
 **Model and analysis code for Bryton, Correa et al., *Scientific Reports* 15, 40801 (2025).**
@@ -111,8 +111,8 @@ If you use the model or scripts, please cite the paper above. A `CITATION.cff` i
 
 ## Licence
 
-- Model weights and documentation: [CC BY-NC 4.0](LICENSE-MODEL)
-- Scripts: [MIT](LICENSE)
+- Model weights and documentation: [CC BY-NC 4.0](LICENSE)
+- Scripts in `scripts/`: [MIT](scripts/LICENSE)
 
 ## Contact
 
